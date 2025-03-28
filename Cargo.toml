@@ -1,0 +1,3 @@
+[workspace]
+members = ["core_m0","core_m4"]
+resolver = "2"

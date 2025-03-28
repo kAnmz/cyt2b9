@@ -1,0 +1,16 @@
+[package]
+name = "core1"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cyt2b9_c = { version = "0.0.1", features = ["rt", "critical-section"] }
+cortex-m = "0.7.0"
+cortex-m-rt = "0.7.5"
+panic-halt = "1.0.0"
+rtic = { version = "2.1.2", features = ["cortex-m","thumbv7-backend"] }
+
+
+
+
+

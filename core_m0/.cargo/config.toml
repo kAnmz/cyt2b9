@@ -1,0 +1,11 @@
+[build]
+target = "thumbv6m-none-eabi"
+# post-build = [
+#     "cargo objcopy --bin {CARGO_PKG_NAME} -- -O binary {CARGO_PKG_NAME}.hex",
+# ]
+# rustflags = [
+#     "-C", "link-arg=-Tmemory.x",
+#     "-C", "link-arg=-Tlink.x",
+# ]
+
+# [target.'cfg(all(target_arch = "arm", target_os = "none"))']
