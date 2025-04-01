@@ -31,10 +31,11 @@ mod app {
     fn init(ctx: init::Context) -> (Shared, Local) {
         // 初始化代码
         let peripherals = ctx.device;
-        let mut cpuss = peripherals.CPUSS;
+
+        let mut CPUSS = peripherals.CPUSS.rom_ctl;
 
 
-     
+        
 
 
         (Shared {test:[128;10]}, Local {},)

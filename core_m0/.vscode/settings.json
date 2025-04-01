@@ -1,6 +1,12 @@
-{
-    "rust-analyzer.cargo.target": "thumbv6m-none-eabi",  // 与你的芯片架构一致
-    "rust-analyzer.cargo.features": "all",
-    "rust-analyzer.checkOnSave.command": "clippy",
-    "rust-analyzer.procMacro.enable": true
-}
+  {
+      "rust-analyzer.cargo.target": "thumbv6m-none-eabi",  // 与你的芯片架构一致
+      "rust-analyzer.cargo.features": "all",
+      "rust-analyzer.checkOnSave.command": "clippy",
+      "rust-analyzer.procMacro.enable": true,
+
+      "rust-analyzer.cargo.extraEnv": {
+          "RUST_TARGET_PATH": "${workspaceFolder}/.cargo"
+        },
+      //   "rust-analyzer.cargo.target": "thumbv7m-none-eabi",
+        "rust-analyzer.check.extraArgs": ["--target=thumbv7m-none-eabi"]
+  }
