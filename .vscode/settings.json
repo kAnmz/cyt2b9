@@ -1,0 +1,18 @@
+  // {
+  //   "rust-analyzer.workspace.symbol.search.scope": "current",
+  //   "rust-analyzer.cargo.features": [],
+  //   "rust-analyzer.check.overrideCommand": [
+  //     "cargo",
+  //     "check",
+  //     "--manifest-path",
+  //     "${input:rust_analyzer_current_crate}"
+  //   ],
+  //   "inputs": [
+  //     {
+  //       "id": "rust_analyzer_current_crate",
+  //       "type": "command",
+  //       "command": "rust-analyzer.currentCrate",
+  //       "args": { "location": "workspace" }
+  //     }
+  //   ]
+  // }
